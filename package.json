@@ -1,0 +1,18 @@
+{
+  "name": "my-app",
+  "version": "0.0.1",
+  "license": "UNLICENSED",
+  "scripts": {
+    "build": "lynx-speedy build",
+    "build:dev": "lynx-speedy build --mode=development",
+    "dev": "lynx-speedy dev"
+  },
+  "devDependencies": {
+    "@byted-lynx/lynx-speedy": "3.5.10",
+    "@byted-lynx/react": "0.105.1",
+    "@byted-lynx/speedy-config-preset-env": "^1.2.7",
+    "@byted-lynx/speedy-plugin-sign-tasm": "^0.1.0",
+    "@byted-lynx/type-lynx": "3.1.1",
+    "@types/react": "^18"
+  }
+}
